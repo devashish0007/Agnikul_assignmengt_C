@@ -1,0 +1,10 @@
+linkedlist.h contains the class definition with member-funtion-declarations (only).
+
+ListFun.c contains the function definitions for the member-funtions declared in the .h file.
+primeNumbers.c is the main file which contains all the includes.
+ListFun.o and primeNumbers.o are the intermediate object files
+prime is the the final executable file
+ 
+gcc -g -c src/ListFun.c -o obj/ListFun.o
+gcc -g -c src/primeNumbers.C -o obj/primeNumbers.o
+gcc obj/ListFun.o obj/Complement.o -o bin/prime
